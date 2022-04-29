@@ -1,9 +1,26 @@
 {
   "clientSchemaVersion": 1,
   "serverSchemaVersion": 4,
+  "pageOrder": [
+    "Page1",
+    "Page1 Copy"
+  ],
+  "publishedPageOrder": [
+    "Page1",
+    "Page1 Copy"
+  ],
   "publishedDefaultPageName": "Page1",
   "unpublishedDefaultPageName": "Page1",
-  "invisibleActionFields": {},
+  "invisibleActionFields": {
+    "Page1 Copy_Api1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Page1_Api1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    }
+  },
   "publishedTheme": {
     "name": "Classic",
     "displayName": "Classic",
