@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Api1",
+    "name": "Api2",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -17,15 +17,15 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "Page1 Copy",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "path": "/echo/get",
       "headers": [
         {
-          "key": "info",
-          "value": "\"test on page load\""
+          "key": "key",
+          "value": "page load test"
         }
       ],
       "encodeParamsToggle": true,
@@ -52,7 +52,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page1_Api1",
+  "id": "Page1 Copy_Api2",
   "deleted": false,
-  "gitSyncId": "625d27726017235e90f5e1e6_626bc3b1cf5a3e0f5ef987c0"
+  "gitSyncId": "626bc5e3cf5a3e0f5ef98810_626bc622cf5a3e0f5ef98818"
 }
