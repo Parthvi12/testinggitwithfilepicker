@@ -110,11 +110,6 @@
             }
           ]
         ],
-        "widgetNames": [
-          "FilePicker1",
-          "Input1",
-          "MainContainer"
-        ],
         "validOnPageLoadActions": true,
         "id": "Page1 Copy",
         "deleted": false,
@@ -126,6 +121,5 @@
     "policies": []
   },
   "deleted": false,
-  "policies": [],
   "gitSyncId": "625d27726017235e90f5e1e6_626bc421cf5a3e0f5ef987c5"
 }

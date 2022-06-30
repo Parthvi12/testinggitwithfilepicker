@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 57,
+          "version": 59,
           "minHeight": 1292,
           "parentColumnSpace": 1,
           "dynamicTriggerPathList": [],
@@ -27,7 +27,9 @@
           "leftColumn": 0,
           "children": [
             {
+              "boxShadow": "none",
               "widgetName": "FilePicker1",
+              "buttonColor": "#03B365",
               "displayName": "FilePicker",
               "iconSVG": "/static/media/icon.7c5ad9c3.svg",
               "topRow": 27,
@@ -41,6 +43,7 @@
               "leftColumn": 20,
               "isDisabled": false,
               "key": "jkdv2exjc4",
+              "labelTextSize": "0.875rem",
               "isRequired": false,
               "rightColumn": 36,
               "isDefaultClickDisabled": true,
@@ -54,10 +57,12 @@
               "selectedFiles": [],
               "renderMode": "CANVAS",
               "isLoading": false,
+              "borderRadius": "0px",
               "files": [],
               "maxNumFiles": 1
             },
             {
+              "boxShadow": "none",
               "widgetName": "Input1",
               "displayName": "Input",
               "iconSVG": "/static/media/icon.9f505595.svg",
@@ -76,6 +81,9 @@
               "dynamicBindingPathList": [
                 {
                   "key": "defaultText"
+                },
+                {
+                  "key": "accentColor"
                 }
               ],
               "labelPosition": "Left",
@@ -83,9 +91,11 @@
               "inputType": "TEXT",
               "isDisabled": false,
               "key": "o1r1ah4v88",
+              "labelTextSize": "0.875rem",
               "isRequired": false,
               "rightColumn": 32,
               "widgetId": "t5ha5vubx9",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "isVisible": true,
               "label": "Label",
               "version": 2,
@@ -93,6 +103,7 @@
               "labelAlignment": "left",
               "renderMode": "CANVAS",
               "isLoading": false,
+              "borderRadius": "0px",
               "iconAlign": "left",
               "defaultText": "{{Api1.data.headers.info}}"
             }
@@ -110,11 +121,6 @@
             }
           ]
         ],
-        "widgetNames": [
-          "FilePicker1",
-          "Input1",
-          "MainContainer"
-        ],
         "validOnPageLoadActions": true,
         "id": "Page1",
         "deleted": false,
@@ -126,6 +132,5 @@
     "policies": []
   },
   "deleted": false,
-  "policies": [],
   "gitSyncId": "625d27726017235e90f5e1e6_625d27726017235e90f5e1e8"
 }
