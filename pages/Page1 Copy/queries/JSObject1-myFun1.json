@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n\t\t//write code here\n\t}",
+      "body": "() => {\n  return \"success\";\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
@@ -35,7 +35,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n\t\t//write code here\n\t}"
+      "() => {\n  return \"success\";\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
