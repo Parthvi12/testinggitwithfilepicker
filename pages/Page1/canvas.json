@@ -13,13 +13,13 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 5010,
+          "bottomRow": 460,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 59,
+          "version": 77,
           "minHeight": 1292,
           "parentColumnSpace": 1,
           "dynamicTriggerPathList": [],
@@ -94,6 +94,7 @@
               "labelTextSize": "0.875rem",
               "isRequired": false,
               "rightColumn": 32,
+              "dynamicHeight": "FIXED",
               "widgetId": "t5ha5vubx9",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "isVisible": true,
@@ -104,8 +105,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "borderRadius": "0px",
+              "maxDynamicHeight": 9000,
               "iconAlign": "left",
-              "defaultText": "{{Api1.data.headers.info}}"
+              "defaultText": "{{Api1.data.headers.info}}",
+              "minDynamicHeight": 4
             }
           ]
         },
@@ -121,6 +124,7 @@
             }
           ]
         ],
+        "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Page1",
         "deleted": false,

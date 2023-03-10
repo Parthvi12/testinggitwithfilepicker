@@ -17,7 +17,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "Page1 Copy",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -32,6 +32,7 @@
       "queryParameters": [],
       "bodyFormData": [],
       "httpMethod": "GET",
+      "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -52,7 +53,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page1_Api1",
+  "id": "Page1 Copy_Api1",
   "deleted": false,
-  "gitSyncId": "625d27726017235e90f5e1e6_626bc3b1cf5a3e0f5ef987c0"
+  "gitSyncId": "625d27726017235e90f5e1e6_626bc421cf5a3e0f5ef987c7"
 }

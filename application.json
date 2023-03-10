@@ -18,6 +18,7 @@
   "unreadCommentThreads": 0,
   "color": "#FFEFDB",
   "icon": "heart",
+  "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,
   "isManualUpdate": false,
