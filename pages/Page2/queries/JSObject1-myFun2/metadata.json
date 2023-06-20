@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "myFun1",
-    "fullyQualifiedName": "JSObject1.myFun1",
+    "name": "myFun2",
+    "fullyQualifiedName": "JSObject1.myFun2",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,16 +13,15 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1 Copy",
-    "collectionId": "Page1 Copy_JSObject1",
+    "pageId": "Page2",
+    "collectionId": "Page2_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n\t\t//write code here\n\t}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
-      "isAsync": false
+      "isAsync": true
     },
     "executeOnLoad": false,
     "clientSideExecution": true,
@@ -34,15 +33,12 @@
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "() => {\n\t\t//write code here\n\t}"
-    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page1 Copy_JSObject1.myFun1",
+  "id": "Page2_JSObject1.myFun2",
   "deleted": false,
-  "gitSyncId": "625d27726017235e90f5e1e6_62bdc6c4b28c5a177c90b785"
+  "gitSyncId": "625d27726017235e90f5e1e6_62bdc6fcb28c5a177c90b799"
 }
